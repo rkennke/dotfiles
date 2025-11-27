@@ -11,4 +11,6 @@ mv jtreg jtreg8
 rm jtreg.zip
 
 # Install GTest
-git clone -b v1.14.0 https://github.com/google/googletest
+wget https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip
+unzip v1.14.0.zip
+rm v1.14.0.zip
