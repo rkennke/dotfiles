@@ -1,5 +1,6 @@
-sudo apt update && sudo apt upgrade -y
-sudo apt install file libasound2-dev libcups2-dev libx11-dev libxext-dev libxrender-dev libxrandr-dev libxtst-dev libxt-dev openjdk-25-jdk
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y file libasound2-dev libcups2-dev libx11-dev libxext-dev libxrender-dev libxrandr-dev libxtst-dev libxt-dev openjdk-25-jdk
 
 mkdir ~/progs
 cd ~/progs
